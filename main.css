@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+  font-family: "Open Sans";
+  background-color: #fff;
+  color: #333;
+  line-height: 1.58;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #000;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f44336;
+}
+
+nav a.active {
+  color: #2196f3;
+}
+
+.Middle {
+  height: 690px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-image: url("Fast Shoe.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Middle h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #f44336;
+}
+
+.Middle p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: -14px;
+}
+
+.button {
+  display: inline-block;
+  padding: 24px;
+  background: #f44336;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #c62828;
+}
+
+.featured {
+  text-align: center;
+  padding: 40px;
+  background: #f9f9f9;
+}
+
+.featured h2 {
+  margin-bottom: 20px;
+}
+
+.cards {
+  text-align: center; 
+}
+
+.card {
+  background: white;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 15px;
+  color: #000;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #000;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: wheat;
+  margin: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f44336;
+}
+
+nav a.active {
+  color: #f6c70a;
+}
+
+.categories {
+  width: 1000px;
+  margin-left: 220px; 
+  margin-right: 220px; 
+}
+
+.categories h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.row {
+  overflow: scroll; 
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.row img {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+
+.row.opp img {
+  float: right;
+  margin-left: 20px;
+  width: 350px;
+  height: 380px;
+  border-radius: 10px;
+}
+
+
+.row-text h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.row-text p {
+  margin-bottom: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f44336;
+  color: white;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background: #9f0000;
+}
+  
+.story {
+  max-width: 1000px;
+  margin-left: 190px; 
+  margin-right: 150px;
+  padding: 20px;
+}
+
+.story h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.story-story {
+  text-align: center;
+}
+
+.story-image1 {
+  margin-top: 20px;
+  display: inline-block;
+  width: 250px;
+  height: 185px;
+  border-radius: 10px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.story-text {
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.contact {
+  width: 600px;
+  margin-left: 400px; 
+  margin-right: 370px;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-place label {
+  display: block;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.contact-place input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.contact-place textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.contact-place button {
+  display: block;
+  width: 104%;
+  padding: 12px;
+  background: #f44336;
+  color: white;
+  border: none ;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact-place button:hover {
+  background: #c62828;
+}
+
+.row {
+  position: relative;
+  animation-name: Slide;
+  animation-duration: 2s;
+}
+
+@keyframes Slide {
+  0%   {left:250px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+.row.opp {
+  position: relative;
+  animation-name: Slide2;
+  animation-duration: 2s;
+}
+
+@keyframes Slide2 {
+  0%   {right:250px; top:0px;}
+  100% {right:0px; top:0px;}
+}
+
+.contact {
+  position: relative;
+  animation-name: SlideUP;
+  animation-duration: 2s;
+}
+
+@keyframes SlideUP {
+  0%   {right:0px; top:150px;}
+  100% {right:0px; top:0px;}
+}
+
+.category-title {
+  text-align: center;
+}
+
+.shoes {
+  text-align: center;
+}
+
+.Shoe {
+  display: inline-block;
+  position: relative;   
+  width: 220px;
+  margin: 15px;
+  padding: 15px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  vertical-align: top;
+  transition: transform 0.3s;
+}
+
+.Shoe img {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.Shoe:hover {
+  transform: scale(1.05);
+  border-color: #666;
+}
+
+.Shoe h3 {
+  margin: 10px 0;
+}
+
+.Shoe p {
+  font-size: 14px;
+  color: #555;
+}
+
+.Shoe button:hover {
+  background: #d32f2f;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 200px;
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+
+.specs {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Shoe:hover .image {
+  opacity: 0.25;
+}
+
+.Shoe:hover .specs {
+  opacity: 1;
+}
+
+.specs-Text {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  border-radius: 8px;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
